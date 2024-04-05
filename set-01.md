@@ -12,7 +12,7 @@
 
 ```ghost
     player.onChat("run", function () {
-        agent.place(FORWARD)
+        hiragana_egent.place(FORWARD)
     })
 ```
 
