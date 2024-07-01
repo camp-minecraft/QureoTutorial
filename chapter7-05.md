@@ -12,7 +12,7 @@
 ``||logic.もし◯◯なら||``
 ``||logic.=||``
 ``||blocks.丸石||``
-``||blocks.樫(かし)の木材||``
+``||blocks.樫(かし)の板材||``
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてrunといれてプログラムをうごかしてみよう！
 
