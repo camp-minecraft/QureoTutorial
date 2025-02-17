@@ -47,7 +47,7 @@
     hiragana_agent.place(DOWN)
     hiragana_agent.setSlot(5)
     hiragana_agent.place(DOWN)
-
+    hiragana_agent.placeMineCart()
 ```
 
 ```template
@@ -89,7 +89,5 @@
     hiragana_agent.move(UP, 1)
     hiragana_agent.setSlot(6)
     hiragana_agent.place(DOWN)
-    hiragana_agent.setSlot(5)
-    hiragana_agent.place(DOWN)
-
+    hiragana_agent.placeMineCart()
 ```
