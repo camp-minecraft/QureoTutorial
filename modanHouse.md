@@ -7,25 +7,15 @@
 そのあとみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたらプログラムがうごくよ！
 
 ```ghost
-function くうらん () {
-    for (let index = 0; index < 4; index++) {
-        hiragana_agent.place(FORWARD)
-        hiragana_agent.move(UP, 1)
-    }
-    hiragana_agent.place(FORWARD)
-    hiragana_agent.move(DOWN, 1)
-}
-function くうらん2 () {
-    hiragana_agent.move(DOWN, 5)
-    hiragana_agent.move(RIGHT, 1)
-    hiragana_agent.move(FORWARD, 1)
-    hiragana_agent.turn(LEFT_TURN)
-}
-
     hiragana_agent.move(FORWARD, 3)
     for (let index = 0; index < 5; index++) {
         hiragana_agent.setSlot(1)
-        くうらん()
+        for (let index = 0; index < 4; index++) {
+            hiragana_agent.place(FORWARD)
+            hiragana_agent.move(UP, 1)
+        }
+        hiragana_agent.place(FORWARD)
+        hiragana_agent.move(DOWN, 1)
         for (let index = 0; index < 3; index++) {
             hiragana_agent.place(UP)
             hiragana_agent.move(BACK, 1)
@@ -117,7 +107,10 @@ function くうらん2 () {
             hiragana_agent.move(BACK, 1)
             hiragana_agent.place(FORWARD)
         }
-        くうらん2()
+        hiragana_agent.move(DOWN, 5)
+        hiragana_agent.move(RIGHT, 1)
+        hiragana_agent.move(FORWARD, 1)
+        hiragana_agent.turn(LEFT_TURN)
         for (let index = 0; index < 5; index++) {
             hiragana_agent.setSlot(3)
             agent.setItem(BLOCK_OF_QUARTZ, 64, 3)
@@ -158,25 +151,15 @@ function くうらん2 () {
 ```
 
 ```template
-function くうらん () {
-    for (let index = 0; index < 4; index++) {
-        hiragana_agent.place(FORWARD)
-        hiragana_agent.move(UP, 1)
-    }
-    hiragana_agent.place(FORWARD)
-    hiragana_agent.move(DOWN, 1)
-}
-function くうらん2 () {
-    hiragana_agent.move(DOWN, 5)
-    hiragana_agent.move(RIGHT, 1)
-    hiragana_agent.move(FORWARD, 1)
-    hiragana_agent.turn(LEFT_TURN)
-}
-
     hiragana_agent.move(FORWARD, 3)
     for (let index = 0; index < 5; index++) {
         hiragana_agent.setSlot(1)
-        くうらん()
+        for (let index = 0; index < 4; index++) {
+            hiragana_agent.place(FORWARD)
+            hiragana_agent.move(UP, 1)
+        }
+        hiragana_agent.place(FORWARD)
+        hiragana_agent.move(DOWN, 1)
         for (let index = 0; index < 3; index++) {
             hiragana_agent.place(UP)
             hiragana_agent.move(BACK, 1)
@@ -268,7 +251,10 @@ function くうらん2 () {
             hiragana_agent.move(BACK, 1)
             hiragana_agent.place(FORWARD)
         }
-        くうらん2()
+        hiragana_agent.move(DOWN, 5)
+        hiragana_agent.move(RIGHT, 1)
+        hiragana_agent.move(FORWARD, 1)
+        hiragana_agent.turn(LEFT_TURN)
         for (let index = 0; index < 5; index++) {
             hiragana_agent.setSlot(3)
             agent.setItem(BLOCK_OF_QUARTZ, 64, 3)
@@ -304,6 +290,4 @@ function くうらん2 () {
             hiragana_agent.place(DOWN)
         }
     }
-
-
 ```

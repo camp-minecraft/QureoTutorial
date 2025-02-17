@@ -1,7 +1,7 @@
 /**
  * Custom blocks
  */
-//% color=#D83B01 weight=400 icon="\uf1e6" block="ひらがな＿エージェント"
+//% color=#D83B01 weight=400 icon="\uf1e6" block="エージェント"
 namespace hiragana_agent {
 
     //% blockId=hiragana_agent_8
