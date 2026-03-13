@@ -1,13 +1,13 @@
 ### @flyoutOnly true
-### @hideIteration true
-### @hideIteration true
+
+
 # QureoMinecraft
 
 ## エージェントをうごかしてみよう！
 
 こんかいはつぎのブロックをつかうよ！
 
-``||agent.エージェントを◯に◯ブロックいどうさせる||``
+``||agent.エージェントを〇に〇ブロックいどうさせる||``
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてgoとrunをいれてプログラムをうごかしてみよう！
 

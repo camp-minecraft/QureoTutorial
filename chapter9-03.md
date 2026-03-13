@@ -1,6 +1,6 @@
 ### @flyoutOnly true
-### @hideIteration true
-### @hideIteration true
+
+
 # QureoMinecraft
 
 ## エージェントをうごかしてみよう！
@@ -9,7 +9,7 @@
 
 ``||agent.エージェントの前にブロックがある||``
 
-``||logic.もし◯なら||``
+``||logic.もし〇なら||``
 ``||logic.=||``
 ``||logic.真||``
 

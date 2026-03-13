@@ -1,14 +1,14 @@
 ### @flyoutOnly true
-### @hideIteration true
-### @hideIteration true
+
+
 # QureoMinecraft
 
 ## エージェントをうごかしてみよう！
 
 こんかいはつぎのブロックをつかうよ！
 
-``||agent.エージェントの◯のブロック||``
-``||logic.もし◯◯なら||``
+``||agent.エージェントの〇のブロック||``
+``||logic.もし〇〇なら||``
 ``||logic.=||``
 ``||blocks.レンガブロック||``
 

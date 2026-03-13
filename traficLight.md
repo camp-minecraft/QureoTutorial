@@ -7,15 +7,11 @@
 そのあとみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたらプログラムがうごくよ！
 
 ```ghost
-function くうらん () {
+    hiragana_agent.setSlot(1)
     for (let index = 0; index < 7; index++) {
         hiragana_agent.place(FORWARD)
         hiragana_agent.move(UP, 1)
     }
-}
-
-    hiragana_agent.setSlot(1)
-    くうらん()
     hiragana_agent.move(FORWARD, 2)
     hiragana_agent.setSlot(2)
     hiragana_agent.place(DOWN)
@@ -34,15 +30,11 @@ function くうらん () {
 ```
 
 ```template
-function くうらん () {
+    hiragana_agent.setSlot(1)
     for (let index = 0; index < 7; index++) {
         hiragana_agent.place(FORWARD)
         hiragana_agent.move(UP, 1)
     }
-}
-
-    hiragana_agent.setSlot(1)
-    くうらん()
     hiragana_agent.move(FORWARD, 2)
     hiragana_agent.setSlot(2)
     hiragana_agent.place(DOWN)
@@ -58,5 +50,4 @@ function くうらん () {
         hiragana_agent.place(DOWN)
         hiragana_agent.move(BACK, 1)
     }
-
 ```

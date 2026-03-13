@@ -7,18 +7,6 @@
 そのあとみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたらプログラムがうごくよ！
 
 ```ghost
-function くうらん () {
-    hiragana_agent.place(FORWARD)
-    hiragana_agent.move(UP, 1)
-    hiragana_agent.place(FORWARD)
-    hiragana_agent.move(BACK, 3)
-    hiragana_agent.turn(LEFT_TURN)
-    hiragana_agent.turn(LEFT_TURN)
-    hiragana_agent.place(FORWARD)
-    hiragana_agent.move(DOWN, 1)
-    hiragana_agent.place(FORWARD)
-}
-
     hiragana_agent.move(FORWARD, 3)
     hiragana_agent.setSlot(1)
     hiragana_agent.place(FORWARD)
@@ -72,7 +60,15 @@ function くうらん () {
     hiragana_agent.place(FORWARD)
     hiragana_agent.move(UP, 1)
     hiragana_agent.setSlot(4)
-    くうらん()
+    hiragana_agent.place(FORWARD)
+    hiragana_agent.move(UP, 1)
+    hiragana_agent.place(FORWARD)
+    hiragana_agent.move(BACK, 3)
+    hiragana_agent.turn(LEFT_TURN)
+    hiragana_agent.turn(LEFT_TURN)
+    hiragana_agent.place(FORWARD)
+    hiragana_agent.move(DOWN, 1)
+    hiragana_agent.place(FORWARD)
     hiragana_agent.turn(LEFT_TURN)
     hiragana_agent.setSlot(5)
     hiragana_agent.place(FORWARD)
@@ -92,18 +88,6 @@ function くうらん () {
 ```
 
 ```template
-function くうらん () {
-    hiragana_agent.place(FORWARD)
-    hiragana_agent.move(UP, 1)
-    hiragana_agent.place(FORWARD)
-    hiragana_agent.move(BACK, 3)
-    hiragana_agent.turn(LEFT_TURN)
-    hiragana_agent.turn(LEFT_TURN)
-    hiragana_agent.place(FORWARD)
-    hiragana_agent.move(DOWN, 1)
-    hiragana_agent.place(FORWARD)
-}
-
     hiragana_agent.move(FORWARD, 3)
     hiragana_agent.setSlot(1)
     hiragana_agent.place(FORWARD)
@@ -157,7 +141,15 @@ function くうらん () {
     hiragana_agent.place(FORWARD)
     hiragana_agent.move(UP, 1)
     hiragana_agent.setSlot(4)
-    くうらん()
+    hiragana_agent.place(FORWARD)
+    hiragana_agent.move(UP, 1)
+    hiragana_agent.place(FORWARD)
+    hiragana_agent.move(BACK, 3)
+    hiragana_agent.turn(LEFT_TURN)
+    hiragana_agent.turn(LEFT_TURN)
+    hiragana_agent.place(FORWARD)
+    hiragana_agent.move(DOWN, 1)
+    hiragana_agent.place(FORWARD)
     hiragana_agent.turn(LEFT_TURN)
     hiragana_agent.setSlot(5)
     hiragana_agent.place(FORWARD)
@@ -172,6 +164,5 @@ function くうらん () {
     hiragana_agent.place(RIGHT)
     hiragana_agent.move(UP, 1)
     hiragana_agent.place(DOWN)
-
 
 ```
